@@ -1,0 +1,155 @@
+* {
+    font-family: 'Single Day', cursive;
+}
+
+nav {
+    background-color: rgba(222, 184, 135, 0.341);
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+
+}
+
+nav ul {
+    display: flex;
+
+
+}
+nav ul li a{
+    justify-content:space-between;
+    color: brown;
+    margin: 20px;
+    font-size: larger;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration:dotted;
+    text-shadow: 2px 4px 6px crimson;
+}
+video{
+    width: 100%;
+    height:700px;
+    object-fit: cover;
+}
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+}
+h1:hover{
+    color: aliceblue;
+    text-shadow: 4px 6px 8px red;
+}
+span{
+    color:blueviolet;
+    font-weight: bolder;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+#home::before{
+    content: "";
+    background-image: url(https://th.bing.com/th/id/OIP.VMMEWpgpPYog1oDAEiabwwHaEK?w=208&h=117&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+    height: 100%;
+    background-size: cover;
+}
+.main{
+    border: 2px inset blueviolet;
+    padding: 50px;
+    display: flex;
+    position: absolute;
+    top:961px;
+    left: 65%;
+    box-shadow: 4px 6px;
+
+}
+.pic{
+    display: flex;
+}
+.pic img{
+    width: 400px;
+}
+.pic p{
+    text-align: justify;
+    margin: 10px;
+}
+.pic h4{
+    color:aliceblue;
+    font-size: larger;
+    font-style: italic;
+    text-align: center;
+}
+h3{
+    color: darkmagenta;
+    text-align:center;
+    margin: 15px;
+    text-shadow: 4px 5px 6px;
+}
+.gallery{
+    justify-content: space-between;
+    box-shadow: 3px 4px 5px 8px beige;
+}
+.gallery img{
+    width: 400px;
+    height: 300px;
+    margin: 30px;
+    margin-bottom: 10px;
+}
+.gallery img:hover{
+    box-shadow: 3px 4px 5px 8px blueviolet;
+}
+.row{
+    display: flex;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    background: linear-gradient( to top, rgba(110, 64, 153)50%,rgba(222, 184, 135, 0.277) 50%);
+    background-size: 100% 200%;
+    transition: all 0.6s;
+}
+.box:hover{
+    background-position: right bottom;
+    border: 4px ridge blueviolet;
+    box-shadow: 3px 4px 8px blueviolet;
+
+}
+.box img{
+    width: 50%;
+    border-radius: 30%;
+}
+.box h5{
+    color: blue;
+    margin: 5px;
+    text-align: center;
+    text-shadow: 4px 5px 6px;
+
+}
+.box p{
+    text-align: justify;
+    padding: 10px;
+}
+form{
+    width: 500px;
+    margin-left: 500px;
+}
+.input{
+    width: 100%;
+    margin: 10px;
+}
+button{
+    color: beige;
+    background-color: black;
+}
+.cv{
+    background-color: black;
+    color: azure;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 15%;
+    margin-left: 750px;
+}

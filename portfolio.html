@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./portfolio.css">
+
+    <!-- fav icon -->
+    <link rel="icon"
+        href="data:image/png;base64,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"
+        type="image/png">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- nav bar -->
+    <nav>
+        <ul type="none">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#Services">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- background video -->
+    <section id="video">
+        <video autoplay loop muted>
+            <source src="./..//images/laptop_-_3145 (720p).mp4">
+        </video>
+        <div class="overlay">
+            <div class="inner">
+
+                <h1>Hi,Welcome to my profile</h1>
+
+            </div>
+        </div>
+    </section>
+    <!-- home -->
+    <section id="home">
+        <div class="main">
+            <h2><span>I</span><span>A</span><span>M</span><span>J</span><span>O</SPAn><span>H</span><span>N</span></h2>
+        </div>
+
+    </section>
+
+    <!-- about -->
+    <section id="about">
+        <h3>About<i class="fa-solid fa-user fa-fade"></i></h3>
+        <div class="pic">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl2h9m-HgxSj2DqE98X-55gaOz4YhJgMYMtg&usqp=CAU"
+                alt="">
+
+
+            <!-- intro -->
+            <div class="intro">
+                <h4>John</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolores deserunt quod ipsam
+                    repudiandae libero exercitationem quos enim unde tempora accusantium laborum, quasi neque, sed qui
+                    dolore atque quae tenetur.
+                    Est quidem placeat in dolorum sunt reiciendis ad eum obcaecati qui minus neque, ex similique
+                    delectus nam nemo autem corporis laudantium illo? Consectetur optio inventore illum aperiam officia
+                    libero quaerat!
+                    Nesciunt consectetur illo quis saepe mollitia nostrum soluta laudantium similique pariatur molestiae
+                    odit optio est beatae quasi incidunt voluptatem voluptas esse suscipit et ea, accusantium obcaecati
+                    reiciendis? Assumenda, minima numquam?
+                    Error labore alias quam quas architecto libero, sed explicabo, aspernatur possimus eveniet dolor
+                    animi non voluptatum totam distinctio repellat qui voluptatibus ut eaque ex iure cupiditate!
+                    Pariatur explicabo facilis inventore!
+                    Aut cum ipsum corrupti eligendi corporis. Vero, quod nemo. Exercitationem, et ad dicta voluptatem
+                    tenetur a qui, excepturi eum impedit iusto, hic autem! Ex ipsum nisi perferendis corporis iure
+                    aliquid.
+                </p>
+                <a href="./..//images/download.jpeg" class="cv" download="">Hire me</a>
+            </div>
+        </div>
+
+    </section>
+    <hr>
+    <!-- projects -->
+    <section id="projects">
+        <h3>projects <i class="fa-regular fa-laptop fa-beat-fade"></i></h3>
+        <div class="gallery">
+            <img src="https://th.bing.com/th/id/OIP.kUcrjifpGcJVPD01rZFzTwHaEP?w=262&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                alt="mearn">
+            <img src="https://th.bing.com/th/id/OIP.kUcrjifpGcJVPD01rZFzTwHaEP?w=262&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                alt="mearn">
+            <img src="https://th.bing.com/th/id/OIP.kUcrjifpGcJVPD01rZFzTwHaEP?w=262&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                alt="mearn">
+            <img src="https://th.bing.com/th/id/OIP.kUcrjifpGcJVPD01rZFzTwHaEP?w=262&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                alt="mearn">
+            <img src="https://th.bing.com/th/id/OIP.kUcrjifpGcJVPD01rZFzTwHaEP?w=262&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                alt="mearn">
+            <img src="https://th.bing.com/th/id/OIP.kUcrjifpGcJVPD01rZFzTwHaEP?w=262&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                alt="mearn">
+        </div>
+    </section>
+
+    <!-- services -->
+    <section id="Services">
+        <h3>services <i class="fa-regular fa-handshake fa-beat-fade"></i></h3>
+        <div class="row">
+            <div class="box">
+                <img src="https://th.bing.com/th/id/OIP.Pe2oEScGyit-dBUj5JnNXQAAAA?w=438&h=416&rs=1&pid=ImgDetMain"
+                    alt="frontend">
+                <h5>Frontend</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates aperiam aspernatur expedita
+                    laudantium est neque distinctio accusantium reprehenderit quia ex, totam rem nihil repellendus
+                    deserunt rerum beatae quod dolor quibusdam?</p>
+            </div>
+
+            <div class="box">
+                <img src="https://th.bing.com/th/id/OIP.Pe2oEScGyit-dBUj5JnNXQAAAA?w=438&h=416&rs=1&pid=ImgDetMain"
+                    alt="frontend">
+                <h5>Frontend</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates aperiam aspernatur expedita
+                    laudantium est neque distinctio accusantium reprehenderit quia ex, totam rem nihil repellendus
+                    deserunt rerum beatae quod dolor quibusdam?</p>
+            </div>
+
+            <div class="box">
+                <img src="https://th.bing.com/th/id/OIP.Pe2oEScGyit-dBUj5JnNXQAAAA?w=438&h=416&rs=1&pid=ImgDetMain"
+                    alt="frontend">
+                <h5>Frontend</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates aperiam aspernatur expedita
+                    laudantium est neque distinctio accusantium reprehenderit quia ex, totam rem nihil repellendus
+                    deserunt rerum beatae quod dolor quibusdam?</p>
+            </div>
+
+            <div class="box">
+                <img src="https://th.bing.com/th/id/OIP.Pe2oEScGyit-dBUj5JnNXQAAAA?w=438&h=416&rs=1&pid=ImgDetMain"
+                    alt="frontend">
+                <h5>Frontend</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates aperiam aspernatur expedita
+                    laudantium est neque distinctio accusantium reprehenderit quia ex, totam rem nihil repellendus
+                    deserunt rerum beatae quod dolor quibusdam?</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- connect with me -->
+    <section id="contact">
+        <h3>Connect with me <i class="fa-regular fa-comments fa-beat-fade"></i></h3>
+        <form>
+            <input class="input" type="text" placeholder="Enter your name">
+            <input class="input" type="email" placeholder="Enter your email">
+            <textarea class="input" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            <button class="input">Submit</button>
+
+        </form>
+    </section>
+
+</body>
+
+</html>
